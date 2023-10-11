@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .cabecalho-imagem{
+    width: 7%;
+    display: flex;
+    align-items: center;
+  }   
+  header {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background: #09035e;
+  }
+  
+  header .container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+  
+    padding: 0 2em;
+  }
+  
+  header .container-header nav {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  header .container-header nav li a {
+    font-weight: 400;
+    color: #ebbc65;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 0.8rem;
+  }
+
+  header .container-header nav li a.active:hover {
+
+    color: #ffaf03;
+            background-color: #fff; 
+            transition: 0.5s;
+            opacity: 0.5;
+    }
+  
+  header .container-header nav li a.active {
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  
+  header .container-header .search-container input {
+    background: #fce2ab;
+    border: 0;
+    padding: 7px 10px;
+    border-radius: 7px;
+    width: 200px;
+    outline: 0;
+    color: #fff;
+  }
+  
+  header .container-header .search-container input::placeholder {
+    color: #999;
+  }
+  
+  header .container-header .search-container {
+    display: flex;
+  }
+  
+  header .container-header .search-container button {
+    background: #060a16;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: 0;
+  }
+  
+  header.mobile-menu {
+    display: none;
+  }
+  
+  header .container-header .mobile-menu img {
+  text-align: center;
+  width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    header .container-header .search-container {
+      display: none;
+    }
+    
+    header .container-header nav {
+      display: none;
+    }
+    
+     header .container-header .mobile-menu {
+      display: block;
+    }
+  }
+  
+
+.banner{
+	width: 100%;
+}
+
+.principal{
+  background-image: linear-gradient(rgb(20, 62, 87),rgb(20, 110, 138));
+	background: #96a0b4;
+	padding: 30px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic;
+  text-align: left;
+  font-size: x-large;
+}
+.beneficios {
+	background: #96a0b4;
+	padding: 20px;
+  text-align: center;
+  display: flex;
+  padding-left: 30px;
+}
+
+ul {
+	display: flex;
+  display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+
+}
+
+.imagembeneficios {
+	width: 40%;
+  margin: 40px;
+  
+  margin: auto;
+ 
+
+}
+.rodape{
+    background-color: #09035e;
+    color: #ebbc65;
+    text-align:center;
+    padding: 50px 0;
+}
+
+li{
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+.noivo{
+  background-color: #a4b7b9;
+  padding-left: 40px;
+  margin-left: 0px;
+}
+.titulo-centralizado3{
+  font-size: 30px;
+  color: #331904;
+
+}
+.titulo-centralizado4{
+  padding: 20px;
+  padding-bottom: 17px;
+  font-size: 17px;
+}
+
+
+	
+.tabela1{
+  color: #ebbc65;
+    background-color: #070070;
+    text-align: center;
+    font-size: 28px;
+    padding: 8px;
+ 
+  }
+
+.tabela11{
+color: #ebbc65;
+  background-color: #070070;
+  text-align: center;
+  font-size: 28px;
+  padding: 8px;
+}
+
+
+
+
+
+
+table.tftable {font-size:20px;color:#333333;width:100%;border-width: 3px;border-color: #729ea5;border-collapse: collapse;}
+table.tftable th {font-size:25px;background-color:#acc8cc;border-width: 6px;padding: 6px;border-style: solid;border-color: #729ea5;text-align:left;}
+table.tftable tr {background-color:#d4e3e5;}
+table.tftable td {font-size:25px;border-width: 2px;padding: 10px;border-style: solid;border-color: #729ea5;}
+
+
+
+
+.titulo-centralizadosdf{
+  font-size: 28px;
+}
+
+
+
+.tabela11{
+  text-align: center;
+  text-align: 2000px;
+   
+  
+
+}
+.tabela111{
+  color: #ffffff;
+  font-size: 20px;
+  padding: 7px;
+}
+
+h2{
+  font-size: xx-large;
+  text-align: center;
+}
+
+
+
+
+
+
+
